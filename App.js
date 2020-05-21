@@ -23,7 +23,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import {VLCPlayer, VlCPlayerView} from 'react-native-vlc-media-player';
+import { VLCPlayer, VlCPlayerView } from 'react-native-vlc-media-player';
 
 const App: () => React$Node = () => {
   return (
@@ -42,11 +42,11 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <VLCPlayer
               ref={(ref) => (this.vlcPlayer = ref)}
-              style={{width: '100%', height: 200}}
+              style={{ width: '100%', height: 200 }}
               videoAspectRatio="16:9"
               source={{
                 uri:
-                  'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+                  'http://dl5.webmfiles.org/big-buck-bunny_trailer.webm',
                 //'rtsp://admin:pass@192.168.1.43:554/Streaming/Channels/102', // camera rtsp tests
               }}
             />

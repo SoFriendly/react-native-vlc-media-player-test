@@ -19,7 +19,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - MobileVLCKit-unstable (3.0.0a44)
+  - MobileVLCKit (3.3.10)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -183,8 +183,8 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
   - React-jsinspector (0.61.5)
-  - react-native-vlc-media-player (0.3.4):
-    - MobileVLCKit-unstable (= 3.0.0a44)
+  - react-native-vlc-media-player (1.0.6):
+    - MobileVLCKit (= 3.3.10)
     - React
   - React-RCTActionSheet (0.61.5):
     - React-Core/RCTActionSheetHeaders (= 0.61.5)
@@ -229,7 +229,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - MobileVLCKit-unstable (= 3.0.0a44)
+  - MobileVLCKit (= 3.3.10)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -258,7 +258,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
-    - MobileVLCKit-unstable
+    - MobileVLCKit
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -321,7 +321,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  MobileVLCKit-unstable: b6269766db34b00ae6ed68ff729e1d9fcf91a412
+  MobileVLCKit: 34a4d22c48ea48a36c2a6fdf290d4ea094869ac0
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -331,7 +331,7 @@ SPEC CHECKSUMS:
   React-jsi: cb2cd74d7ccf4cffb071a46833613edc79cdf8f7
   React-jsiexecutor: d5525f9ed5f782fdbacb64b9b01a43a9323d2386
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
-  react-native-vlc-media-player: 74239b43b37cc45ed3f9a04d1865b08c4b0d54ad
+  react-native-vlc-media-player: 1d429c59ea02ed11798f545bd5e8360009b62033
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -344,6 +344,6 @@ SPEC CHECKSUMS:
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 394f1d59e438e537e6dad26fc980a9bfd061ee9e
+PODFILE CHECKSUM: df6010a901a140066f7a9def66e1b63217a07d39
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

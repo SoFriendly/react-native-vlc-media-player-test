@@ -35,7 +35,7 @@ target 'vlcTest' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'react-native-vlc-media-player', :path => '../node_modules/react-native-vlc-media-player'
-  pod 'MobileVLCKit-unstable', '3.0.0a44'
+  pod 'MobileVLCKit', '3.3.10'
 
   target 'vlcTestTests' do
     inherit! :search_paths
